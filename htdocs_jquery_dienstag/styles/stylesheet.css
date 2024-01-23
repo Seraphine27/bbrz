@@ -1,0 +1,79 @@
+:root{
+    --bgcolor: lavender;
+    --fontcolor: #e2088e;
+    --bordercolor: lightpink;
+
+}
+/* 
+@font-face {
+    font-family: Itim-Regular;
+    src: url('styles/Itim-Regular.ttf');
+} */
+
+html, body{
+    margin: 0%;
+    background-color: lavender;
+}
+
+.contentarea{
+    width: 90%;
+    margin: 5%;
+    padding-top: 1%;
+    min-height: 93vh;
+    text-align: center;
+    
+    border: 1;
+    border-radius: 2%;
+    border-color: var(--bordercolor);
+    background-color: var(--bgcolor);
+    color: var(--fontcolor);
+}
+
+.label{
+    font-size: 2vh;
+}
+.input{
+    border-radius: 5%;
+    height: 3vh;
+    width: 20%;
+    border-width: 1vh;
+    border-color: var(--bordercolor);
+}   
+form{
+    margin-top: 10vh;
+}
+
+.submit{
+    width: 10vh;
+    height: 3vh;
+    cursor: pointer;
+    background-color: var(--bordercolor);
+    color: var(--fontcolor);
+    border-color: var( --fontcolor);
+}
+
+.dropdown{
+    margin-top: 10vh;
+    text-align: center;
+    background-color: lavender;
+}
+
+.down{
+    width: 60vh;
+    height: 15vh;
+    margin-top: 1vh;
+    cursor: pointer;
+    background-color: #DDC9FF;
+    color: #790CC7;
+    border-color:#DD6DFF;
+    font-family: papyrus;
+    font-weight: bold;
+    font-size: 30px;
+} 
+
+.absatz{
+    font-family: papyrus;
+    font-weight: bold;
+    font-size: 25px;
+    display: none;
+}
