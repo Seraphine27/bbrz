@@ -9,6 +9,16 @@
     <title>09.01.2024</title>
 </head>
 <body>
+<div class="nav">
+        <ul>
+            <li>
+                <a href="test.php">Home</a>
+            </li>
+            <li>
+                <a href="qa.php">Q&A</a>
+            </li>
+        </ul>
+        
     <div>
         <table border="1" bgcolor="yellow">
             <tr>
@@ -97,4 +107,5 @@
         </form>
     </div>
 </body>
+    </div>
 </html>

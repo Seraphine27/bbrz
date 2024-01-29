@@ -77,3 +77,30 @@ form{
     font-size: 25px;
     display: none;
 }
+
+.nav{
+    background-color: var(--bgcolor);
+    border: 2px var(--bordercolor);
+    width: 100%;
+    height: auto;
+    margin: 3% ;
+}
+.nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.nav li{
+    float: left;
+}
+.nav li a{
+    font-size: 120%;
+    color: var(--fontcolor);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+.nav li a:hover{
+    background-color: var(--fontcolor);
+    color: var(--bordercolor);
+}
